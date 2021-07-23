@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <style>
+            img{
+                width: 600px;
+                height: 200px;
+            }
+
+            #rcorners2 {
+            border-radius: 25px;
+            border: 2px solid #999999;
+            padding: 20px;
+            width: 350px;
+            height: 8px;
+            font-size: 24px;
+            }
+            
+            input[type=submit] {
+            font-size: 14px;
+            width: 185px;
+            /* Remove border */
+            border-width: 0px;
+            border-radius: 15px;
+            margin: 20px;
+            }
+            input[type=submit]:hover {
+            /* Add box-shadow when hovering button (border adds space) */
+            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.8);
+            }
+        </style>
+    </head>
+    <body>
+
+        <div style="text-align:right">
+
+            <a href="imageSearch.html">Image search</a> <a href="advancedSearch.html">Advanced search</a>
+
+        </div>
+
+        <form action="https://google.com/search" style="text-align:center">
+
+            <br><br><br><br><br><br>
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Google_2011_logo.png/1200px-Google_2011_logo.png" alt="Rubber Duck Picture">
+            <br>
+            <input id="rcorners2" type="text" name="q">
+            <br>
+            <input type="submit" value="Google Search">
+            <input type="submit" value="I'm Feeling Lucky" name="btnI">
+
+        </form>
+
+    </body>
+</html>
