@@ -3,7 +3,7 @@ CS50’s Web Programming with Python and JavaScript Project 0: Search
 
 Basically, the "front-end" of the Google search engine. You can search up stuff on google using the search bar, use the Im feeling lucky button, use google image search and use Google's advanced search.
 
-
+(the following is copied and pasted from edX)
 
 Specification
 Your website must meet the following requirements.
